@@ -1,4 +1,5 @@
-# 마크다운 작성법 https://guides.github.com/features/mastering-markdown/
+# 마크다운 작성법 
+* 참고 [Links](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## 헤더 ( # )
 
@@ -11,17 +12,21 @@
 ## This is an h2 tag
 ###### This is an h6 tag
   
-## 강조( * _ ** __ )
+## 강조( * _ ** __ ~~ )
 
 ```
 *This text will be italic*
+
 _This will also be italic_
 
 **This text will be bold**
+
 __This will also be bold__
 
 _You **can** combine them_
+
 ```
+
 *This text will be italic*
 
 _This will also be italic_
@@ -60,31 +65,132 @@ _You **can** combine them_
    1. Item 3a
    1. Item 3b
 
-## Images
+## 이미지
 ```
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 ```
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![GitHub Logo](/GithubMarkdown/images/Github_Logo.png)
 
-## Links
+## 링크
+```
+http://github.com - automatic!
+[GitHub](http://github.com)
+```
+http://github.com - automatic!
+
+[GitHub](http://github.com)
 
 ## Blockquotes
+```
+As Kanye West said:
 
-## Inline code
+> We're living the future so
+> the present is our past.
+```
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+## Inline code ( ` )
+```
+I think you should use an
+`<addr>` element here instead.
+```
+I think you should use an
+`<addr>` element here instead.
 
 # GitHub Flavored Markdown
 
 ## Syntax highlighting
 
+````
+```javascript
+
+function fancyAlert(arg) {
+
+  if(arg) {
+  
+    $.facebox({div:'#foo'})
+    
+  }
+  
+}
+```
+````
+```javascript
+
+function fancyAlert(arg) {
+
+  if(arg) {
+  
+    $.facebox({div:'#foo'})
+    
+  }
+  
+}
+```
+
+````
+```python
+def foo():
+    if not bar:
+        return True
+```
+````
+
+```python
+def foo():
+    if not bar:
+        return True
+```
+
 ## Task Lists
+```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 ## Tables
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 ## SHA references
+```
+16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+```
+16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
 ## Issue references within a repository
+```
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
+```
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
 
 ## Username @mentions
 

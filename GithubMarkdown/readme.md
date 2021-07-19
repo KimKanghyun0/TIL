@@ -174,13 +174,15 @@ Content in the first column | Content in the second column
 
 ## SHA references
 ```
-16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+29dc91ad383f3f08b068c8186ce147347c95c224
+mojombo@29dc91ad383f3f08b068c8186ce147347c95c224
+mojombo/github-flavored-markdown@29dc91ad383f3f08b068c8186ce147347c95c224
 ```
-16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+29dc91ad383f3f08b068c8186ce147347c95c224
+
+mojombo@29dc91ad383f3f08b068c8186ce147347c95c224
+
+mojombo/github-flavored-markdown@29dc91ad383f3f08b068c8186ce147347c95c224
 
 ## Issue references within a repository
 ```

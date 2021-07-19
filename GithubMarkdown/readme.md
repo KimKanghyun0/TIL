@@ -1,7 +1,12 @@
 # 마크다운 작성법 
 * 참고 [Links](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-## 헤더 ( # )
+## 목차
+[헤더](#헤더-(-#-))
+
+[이미지](#this-is-an-h1-tag)
+
+## 헤더
 
 ```
 # This is an <h1> tag
@@ -12,7 +17,7 @@
 ## This is an h2 tag
 ###### This is an h6 tag
   
-## 강조( * _ ** __ ~~ )
+## 강조
 
 ```
 *This text will be italic*
@@ -37,9 +42,9 @@ __This will also be bold__
 
 _You **can** combine them_
 
-## 리스트 ( * 1. )
+## 리스트
 
-### 순서없는 ( * )
+### 순서없는
 ```
 * Item 1
 * Item 2
@@ -51,7 +56,7 @@ _You **can** combine them_
   * Item 2a
   * Item 2b
 
-### 순서있는 ( 1. )
+### 순서있는
 ```
 1. Item 1
 1. Item 2

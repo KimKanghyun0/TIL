@@ -178,11 +178,6 @@ Content in the first column | Content in the second column
 mojombo@29dc91ad383f3f08b068c8186ce147347c95c224
 mojombo/github-flavored-markdown@29dc91ad383f3f08b068c8186ce147347c95c224
 ```
-29dc91ad383f3f08b068c8186ce147347c95c224
-
-mojombo@29dc91ad383f3f08b068c8186ce147347c95c224
-
-mojombo/github-flavored-markdown@29dc91ad383f3f08b068c8186ce147347c95c224
 
 ## Issue references within a repository
 ```
@@ -190,16 +185,27 @@ mojombo/github-flavored-markdown@29dc91ad383f3f08b068c8186ce147347c95c224
 mojombo#1
 mojombo/github-flavored-markdown#1
 ```
-#1
-mojombo#1
-mojombo/github-flavored-markdown#1
 
 ## Username @mentions
+```
+@KimKanghyun0
+```
 
 ## Automatic linking for URLs
+```
+http://www.github.com/
+```
+http://www.github.com/
 
 ## Strikethrough
+```
+~~this~~
+```
+~~this~~
 
 ## Emoji
-
+```
+:grinning:
+```
+:grinning:
 

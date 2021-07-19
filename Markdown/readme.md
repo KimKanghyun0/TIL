@@ -90,7 +90,7 @@ _You **can** combine them_
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 ```
-![GitHub Logo](/GithubMarkdown/images/Github_Logo.png)
+![GitHub Logo](/Markdown/images/Github_Logo.png)
 
 ## Links
 ```

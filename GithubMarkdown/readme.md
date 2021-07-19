@@ -2,11 +2,26 @@
 * 참고 [Links](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## 목차
-[헤더](#헤더-(-#-))
+* [Header](#header)
+* [Emphasis](#emphasis)
+* [List](#list)
+* [Images](#images)
+* [Links](#links)
+* [Blockquotes](#blockquotes)
+* [Inline code](#inline-code)
+* [GitHub Flavored Markdown](#gitHub-flavored-markdown)
+* [Inline code](#inline-code)
+* [Syntax highlighting](#syntax-highlighting)
+* [Task Lists](#task-lists)
+* [Tables](#tables)
+* [SHA references](#sha-references)
+* [Issue references within a repository](#issue-references-within-a-repository)
+* [Username @mentions](#username-@mentions)
+* [Automatic linking for URLs](#automatic-linking-for-urls)
+* [Strikethrough](#strikethrough)
+* [Emoji](#emoji)
 
-[이미지](#this-is-an-h1-tag)
-
-## 헤더
+## Header
 
 ```
 # This is an <h1> tag
@@ -17,7 +32,7 @@
 ## This is an h2 tag
 ###### This is an h6 tag
   
-## 강조
+## Emphasis
 
 ```
 *This text will be italic*
@@ -42,7 +57,7 @@ __This will also be bold__
 
 _You **can** combine them_
 
-## 리스트
+## List
 
 ### 순서없는
 ```
@@ -70,14 +85,14 @@ _You **can** combine them_
    1. Item 3a
    1. Item 3b
 
-## 이미지
+## Images
 ```
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 ```
 ![GitHub Logo](/GithubMarkdown/images/Github_Logo.png)
 
-## 링크
+## Links
 ```
 http://github.com - automatic!
 [GitHub](http://github.com)
@@ -99,7 +114,7 @@ As Kanye West said:
 > We're living the future so
 > the present is our past.
 
-## Inline code ( ` )
+## Inline code
 ```
 I think you should use an
 `<addr>` element here instead.
